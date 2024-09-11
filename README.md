@@ -1,3 +1,22 @@
+# My docs
+## Creazione nuovo project
+npx create-expo-app firstReactNativeApp4@latest -t default
+
+## Ripristinare project di default
+npm run reset-project
+
+## Installazione dipendenze 
+npx expo install expo-dev-client react-native-reanimated react-native-gesture-handler
+
+## Installazione eas-cli
+npm install -g eas-cli
+
+## Build del progetto per android
+eas build --profile development --platform android
+
+## Start npx 
+npx expo start
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).

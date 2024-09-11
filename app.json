@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "firstReactNativeApp4@latest",
-    "slug": "firstReactNativeApp4@latest",
+    "slug": "firstreactnativeapp4",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.bicsurf.firstreactnativeapp4",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "190847b0-aa1f-49c3-9ec5-5436b4d034e3"
+      }
+    },
+    "owner": "bicsurf"
   }
 }
